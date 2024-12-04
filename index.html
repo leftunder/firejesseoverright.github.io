@@ -5,9 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fire Jesse Overright</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Under_construction_graphic.gif" alt="Fire Jesse Overright is Under Construction" style="display: block; margin: 30px auto;">
+    <div class="hero">
+        <h1>Fire My Ass</h1>
+        <p>Let’s crush your goals, make waves, and then—poof—I’m out. No strings attached.</p>
+        <button class="cta-button" onclick="scrollToForm()">Fire Me Now</button>
+    </div>
 
+    <div class="concept">
+        <h2>Why Fire Me?</h2>
+        <p>Because your project needs a spark—not a lifetime commitment. I’m here for the ideas, the execution, and the chaos. When you’re done, you show me the door.</p>
+    </div>
+
+    <div class="form-section" id="fire-me-form">
+        <h2>Fire Me Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="problem">What Problem Can I Solve?</label>
+            <textarea id="problem" name="problem" required></textarea>
+
+            <label for="deadline">What’s Your Deadline?</label>
+            <input type="date" id="deadline" name="deadline">
+
+            <label for="firing-style">How Will You Fire Me?</label>
+            <select id="firing-style" name="firing-style">
+                <option value="soft-goodbye">Soft Goodbye</option>
+                <option value="grand-exit">Grand Exit</option>
+                <option value="public-roast">Public Roast</option>
+            </select>
+
+            <button type="submit" class="cta-button">Let’s Do This</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
