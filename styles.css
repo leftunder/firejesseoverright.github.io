@@ -21,7 +21,7 @@ body {
     font-family: 'Russo One', cursive;
     font-size: 8em;
     font-weight: bold;
-    color: #f7c8e0; /* Pastel pink */
+    color: #fff; 
     text-shadow: 4px 4px 0px #ffb6c1, 6px 6px 5px rgba(0, 0, 0, 0.5);
 }
 
