@@ -64,6 +64,10 @@ body {
     text-shadow: 3px 3px 0px #eacff6, 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
+.concept p, .form-section p {
+    font-size: 1.5em;
+}
+
 .form-section {
     background: rgba(0, 0, 0, 0.7);
 }
