@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
@@ -18,7 +18,7 @@ body {
 }
 
 .hero h1 {
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 8em;
     font-weight: bold;
     color: #f7c8e0; /* Pastel pink */
