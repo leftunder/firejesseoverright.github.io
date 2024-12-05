@@ -22,14 +22,23 @@ body {
     font-size: 8em;
     font-weight: bold;
     color: #fff; 
+    margin: -135px 0 0;
     text-shadow: 4px 4px 0px #ffb6c1, 6px 6px 5px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
-    font-size: 2em;
+    font-size: 1.75em;
     margin: 20px 0;
     color: #b0eacd; /* Pastel green */
-    text-shadow: 2px 2px 0px #adebeb, 3px 3px 5px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 0px #333, 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.header-image {
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .cta-button {
@@ -62,11 +71,12 @@ body {
     font-family: 'Russo One', cursive;
     font-size: 4em;
     color: #b0eacd; 
-    text-shadow: 3px 3px 0px #eacff6, 4px 4px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: 3px 3px 0px #eacff6, 4px 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 .concept p, .form-section p {
     font-size: 1.5em;
+    text-shadow: 4px 4px 0px #333, 6px 6px 5px rgba(0, 0, 0, 0.5);
 }
 
 .form-section {
@@ -106,3 +116,22 @@ textarea {
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
+@media (max-width: 768px) {
+    .header-image {
+      max-width: 100%; /* Allows the image to resize within smaller viewports */
+    }
+
+    .hero h1 {
+        font-size: 5em;
+    }
+
+    .concept h2, .form-section h2 {
+        margin: 0;
+        font-size: 2.75em;
+    }
+
+    .hero p, .concept p, .form-section p {
+        font-size: 1.25em;
+    }
+  }
