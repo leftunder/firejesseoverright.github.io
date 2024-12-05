@@ -71,7 +71,7 @@ body {
     font-family: 'Russo One', cursive;
     font-size: 4em;
     color: #b0eacd; 
-    text-shadow: 3px 3px 0px #eacff6, 4px 4px 10px rgba(0, 0, 0, 0.7);
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.7), 4px 4px 10px #eacff6;
 }
 
 .concept p, .form-section p {
